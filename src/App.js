@@ -122,15 +122,6 @@ function evaluate({ currentOperand, previousOperand, operation }) {
   }
 
   const evaluvatedResult = computation.toString();
-  // const history = reactLocalStorage.getObject("history");
-  // const historyObj = {
-  //   currentOperand,
-  //   operation,
-  //   previousOperand,
-  //   evaluvatedResult,
-  // };
-  // history.items = history.items ? [...history.items, historyObj] : [historyObj];
-  // reactLocalStorage.setObject("history", history);
   return evaluvatedResult;
 }
 
